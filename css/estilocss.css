@@ -1,0 +1,137 @@
+.imgEncabezado {
+  background-image: url(../multi/IMG00101-20110320-1050.jpg);
+  height: 900px;
+  color: white; }
+
+.sectionUno {
+  margin: 20px;
+  padding: 30px;
+  justify-content: center; }
+
+.textoIndex__uno {
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px;
+  padding: 15px; }
+
+.bloqueDos__titulo {
+  margin: 5px;
+  padding: 10px;
+  background-color: rgba(243, 251, 252, 0.747);
+  color: #979694;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.bloqueTres__tituloDos {
+  margin: 5px;
+  padding: 10px;
+  color: black;
+  background-color: #f0ece7;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.bloqueCuatro__card {
+  margin: 5px;
+  padding: 10px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.bloqueCuatro__bajada {
+  margin: 5px;
+  padding: 10px;
+  height: 500px;
+  background-image: url(./multi/IMG00101-20110320-1050.jpg);
+  color: black;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.mainServicio {
+  height: 200px;
+  padding: 15px;
+  margin: 15px;
+  background-image: url(/multi/1383545_679443898732640_1951928936_n.jpg); }
+
+.mainServicioDos {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.grid-container .grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1.5fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "texto1 foto1 foto2" "foto3 foto3 texto2" "foto4 texto3 texto3"; }
+
+.grid-container .texto1 {
+  grid-area: texto;
+  justify-items: center; }
+
+.grid-container .foto1 {
+  grid-area: foto;
+  justify-items: center; }
+
+.grid-container .foto2 {
+  grid-area: foto-;
+  justify-items: center; }
+
+.grid-container .foto3 {
+  grid-area: foto-;
+  justify-items: center; }
+
+.grid-container .texto2 {
+  grid-area: texto-;
+  justify-items: center; }
+
+.grid-container .foto4 {
+  grid-area: foto-;
+  justify-items: center; }
+
+.grid-container .texto3 {
+  grid-area: texto-;
+  justify-items: center; }
+
+.contacto {
+  height: 1000px;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../multi/noche.jpg); }
+
+.footer {
+  background-color: #d9d9e0;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: black; }
+
+@media only screen and (max-width: 480px) {
+  .textoIndex__uno {
+    height: auto; }
+  .bloqueDos {
+    height: auto; }
+  .bloqueTres {
+    height: auto; }
+  .bloqueCuatro {
+    height: auto; }
+  .contacto {
+    height: auto; }
+  .mainServicio {
+    height: auto; }
+  .mainServicioDos {
+    height: auto; } }
